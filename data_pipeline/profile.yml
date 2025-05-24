@@ -1,0 +1,13 @@
+# dbt_db:
+#   target: dev
+#   outputs:
+#     dev:
+#       type: snowflake
+#       account: jvrrwvk-qt99350  # e.g. abcd-xy123 or abcd-xy123.us-east-1
+#       user: Bubisjobs
+#       password: Mberrykamaso97@
+#       role: dbt_role  # optional
+#       database: dbt_db
+#       warehouse: dbt_wh
+#       schema: dbt_schema
+#       threads: 10
